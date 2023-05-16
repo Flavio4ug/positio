@@ -1,0 +1,43 @@
+.logo {
+
+    background-color: rgb(160, 150, 107);
+    /* position: absolute; */
+    width: 350px;
+    height: 81px;
+    display: flex;
+    transition: 500ms linear;
+    background-image: url(389.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.mainPage {
+    font-size: large;
+    font-family: japa;
+}
+
+@font-face {
+    font-family: japa;
+    src: url(Old\ Japanese.otf);
+}
+
+*/ .mainpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logolg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    background-image: url(Captura\ de\ tela\ 2023-05-15\ 121514.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
